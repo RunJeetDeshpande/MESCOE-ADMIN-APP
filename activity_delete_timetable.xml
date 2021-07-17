@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeleteTimetable"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="DELETE UPLOADED TIMETABLES"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/addpdf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/ic_delete"
+        app:layout_constraintBottom_toTopOf="@+id/selinearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkimg"
+        app:layout_constraintVertical_bias="0.641" />
+
+    <LinearLayout
+        android:id="@+id/belinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.776">
+
+        <Button
+            android:id="@+id/becomp1"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="15sp"
+            android:background="@drawable/invisible_button"
+            android:text="BE 1" />
+
+        <Button
+            android:id="@+id/becomp2"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="15sp"
+            android:background="@drawable/invisible_button"
+            android:text="BE 2"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/becompss"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="15sp"
+            android:background="@drawable/invisible_button"
+            android:text="BE SS"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/telinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.618">
+
+        <Button
+            android:id="@+id/tecomp1"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="15sp"
+            android:background="@drawable/invisible_button"
+            android:text="TE 1"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/tecomp2"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="15sp"
+            android:background="@drawable/invisible_button"
+            android:text="TE 2"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/tecompss"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="15sp"
+            android:background="@drawable/invisible_button"
+            android:text="TE SS"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/selinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462">
+
+        <Button
+            android:id="@+id/secomp1"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="15sp"
+            android:background="@drawable/invisible_button"
+            android:text="SE 1"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/secomp2"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="15sp"
+            android:background="@drawable/invisible_button"
+            android:text="SE 2"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/secompss"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginHorizontal="15sp"
+            android:background="@drawable/invisible_button"
+            android:text="SE SS"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/deletedsuccessfully"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="DELETED SUCCESSFULLY"
+        android:textColor="#D81B60"
+        android:textSize="15sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/belinearLayout"
+        app:layout_constraintVertical_bias="0.414" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/belinearLayout"
+        app:layout_constraintVertical_bias="0.478" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
